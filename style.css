@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Red-hat-900;
+  src: url(./fonts/RedHatDisplay-Black.ttf);
+}
+
+@font-face {
+  font-family: Red-hat-700;
+  src: url(./fonts/RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: Red-hat-500;
+  src: url(./fonts/RedHatDisplay-Medium.ttf);
+}
+
+body {
+  background-image: url(./img/pattern-background-desktop.svg);
+  background-position: top center;
+  background-repeat: repeat-x;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#main-div {
+  width: 450px;
+  height: 700px;
+  background: white;
+  border-radius: 15px;
+}
+
+#main-div img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#main-text {
+  height: 380px;
+  width: auto;
+  margin: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Red-hat-900;
+  margin: -10px auto;
+}
+
+#second-text {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-family: Red-hat-500;
+  text-align: center;
+}
+
+#Plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: hsl(225, 100%, 98%);
+  width: 350px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#Music {
+  margin-left: -25px;
+  margin-right: -35px;
+}
+
+#plan-and-price {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#plan-and-price h2 {
+  font-size: 16px;
+  font-family: Red-hat-900;
+  margin-bottom: 10px;
+}
+
+#plan-and-price p {
+  font-size: 16px;
+  font-family: Red-hat-500;
+  color: hsl(224, 23%, 55%);
+  margin-top: -5px;
+}
+
+#change {
+  font-size: 14px;
+  font-family: Red-hat-700;
+}
+
+#link:hover {
+  color: rgb(144, 59, 219);
+  cursor: pointer;
+}
+
+#button {
+  display: grid;
+}
+
+#payment {
+  height: 50px;
+  width: 350px;
+  background: hsl(245, 75%, 52%);
+  font-size: 15px;
+  font-family: Red-hat-700;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0px 17px 12px hsl(246, 43%, 73%);
+  margin-bottom: 30px;
+  border: none;
+}
+
+#payment:hover {
+  cursor: pointer;
+  background-color: rgb(144, 59, 219);
+  transition: 3ms;
+  box-shadow: 0px 10px 20px rgb(144, 59, 219);
+}
+
+#cancel {
+  background: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-family: Red-hat-700;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  margin-bottom: -45px;
+  align-items: center;
+}
+
+#cancel:hover {
+  cursor: pointer;
+}
